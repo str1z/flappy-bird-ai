@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flappy Bird</title>
+    <script src="bird.js"></script>
+    <script src="pipes.js"></script>
+    <script src="neuralnetwork.js"></script>
+    <script src="entity.js"></script>
+    <script src="population.js"></script>
+</head>
+
+<body>
+    <div id="sliderscontainer">
+        <label for="generation">Generation : <span id="genlabel"></span></label>
+        <br>
+        <label for="score">Score : <span id="scorelabel"></span></label>
+        <br>
+        <label for="highscore">Highscore : <span id="highscorelabel"></span></label>
+        <br>
+        <label for="average">Average Score : <span id="averagelabel"></span></label>
+        <br>
+        <label for="speed">Speed : <span id="speedlabel"></span></label>
+        <br>
+        <input type="range" name="speed" id="speed" min="0" max="10" value="0" step="1">
+
+    </div>
+    <script src="engine.js"></script>
+
+</body>
+
+</html>
